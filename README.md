@@ -1,1 +1,0 @@
-[CV](https://romnasi.github.io/rsschool-cv)
