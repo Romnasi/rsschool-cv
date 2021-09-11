@@ -37,3 +37,25 @@ If I don't know the answer - I'll find it.
 
 - Python (basic)
 - OOP
+
+## Code example
+
+```javascript
+
+function validParentheses(parens){
+  let balance = 0;
+  const array = parens.split('');
+  for(let i = 0; i < array.length; i++) {
+    if (array[i] === '(') {
+      balance++;
+    } else {
+      balance--
+    }
+    if (balance < 0) {
+      break;
+    }
+  }
+  
+  return balance === 0;
+}
+```
