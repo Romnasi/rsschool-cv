@@ -842,6 +842,46 @@ img {
   margin: 0;
 }
 
+.experience__work-list {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@media (min-width: 560px) {
+  .experience__work-list {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+}
+
+.experience__work-list li {
+  margin-right: auto;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid black;
+
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.experience__card-link {
+  display: block;
+}
+
+
+.experience__card-title {
+  display: block;
+
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
 
 /* date */
 .date {
