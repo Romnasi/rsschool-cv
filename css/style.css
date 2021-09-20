@@ -870,7 +870,8 @@ img {
 
 .experience__card-title {
   display: block;
-
+  
+  margin: 0;
   padding-left: 10px;
   padding-bottom: 5px;
 }
