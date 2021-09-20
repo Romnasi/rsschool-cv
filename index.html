@@ -328,7 +328,7 @@
                     <article class="experience__card card">
                       <a class="experience__card-link" href="https://github.com/Romnasi/642191-sedona-28" target="_blank">
                         <img width="200" src="./img/sedona.jpg" alt="Sedona project">
-                        <span class="experience__card-title">Sedona</span>
+                        <h5 class="experience__card-title">Sedona</h5>
                       </a>
                     </article>
                   </li>
@@ -337,7 +337,7 @@
                     <article class="experience__card card">
                       <a class="experience__card-link" href="https://github.com/Romnasi/642191-device-28" target="_blank">
                         <img width="200" src="./img/device.jpg" alt="Device project">
-                        <span class="experience__card-title">Device</span>
+                        <h5 class="experience__card-title">Device</h5>
                       </a>
                       
                     </article>
@@ -360,7 +360,7 @@
                 <article class="experience__card card">
                   <a class="experience__card-link" href="https://github.com/Romnasi/642191-cat-energy-20" target="_blank">
                     <img width="200" src="./img/cat-energy.jpg" alt="Cat energy project">
-                    <span class="experience__card-title">Cat energy</span>
+                    <h5 class="experience__card-title">Cat energy</h5>
                   </a>
                 </article>
                 <p class="experience__stack">
@@ -381,7 +381,7 @@
                 <article class="experience__card card">
                   <a class="experience__card-link" href="https://github.com/Romnasi/642191-keksobooking-21" target="_blank">
                     <img width="200" src="./img/keksobuking.jpg" alt="Keksobooking project">
-                    <span class="experience__card-title">Keksobooking</span>
+                    <h5 class="experience__card-title">Keksobooking</h5>
                   </a>
                 </article>
                 <p class="experience__stack">
@@ -401,7 +401,7 @@
                 <article class="experience__card card">
                   <a class="experience__card-link" href="https://github.com/Romnasi/642191-big-trip-14" target="_blank">
                     <img width="200" src="./img/big-trip.png" alt="Big trip project">
-                    <span class="experience__card-title">Big trip</span>
+                    <h5 class="experience__card-title">Big trip</h5>
                   </a>
                 </article>
                 <p class="experience__stack">
@@ -420,7 +420,7 @@
                 <article class="experience__card card">
                   <a class="experience__card-link" href="https://github.com/Romnasi/642191-six-cities-7" target="_blank">
                     <img width="200" src="./img/six-cities.jpg" alt="Six cicties project">
-                    <span class="experience__card-title">Six cicties</span>
+                    <h5 class="experience__card-title">Six cicties</h5>
                   </a>
                 </article>
                 <p class="experience__stack">
@@ -559,30 +559,6 @@
       </a>
     </footer>
 
-    <script>
-      const btnOpen = document.querySelector('.nav__btn-open');
-      const btnClose = document.querySelector('.nav__btn-close');
-      const list = document.querySelector('.nav__list');
-
-      const onBtnCloseClick = () => {
-        list.classList.remove('nav__list--active');
-        btnClose.classList.add('hidden');
-        btnOpen.classList.remove('hidden');
-
-        btnClose.removeEventListener('click', onBtnCloseClick);
-        btnOpen.addEventListener('click', onBtnOpenClick);
-      }
-
-      const onBtnOpenClick = () => {
-        list.classList.add('nav__list--active');
-        btnOpen.classList.add('hidden');
-        btnClose.classList.remove('hidden');
-
-        btnOpen.removeEventListener('click', onBtnOpenClick);
-        btnClose.addEventListener('click', onBtnCloseClick);
-      };
-
-      btnOpen.addEventListener('click', onBtnOpenClick);
-    </script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

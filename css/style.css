@@ -1,10 +1,3 @@
-/* TO DO: 1. Добавить курс RSS в онлайн курсы */
-/* TO DO: 2. Добавить скриншоты выполненных работ */
-/* TO DO: 3. Ссылки на работы открываются в новых вкладках */
-/* TO DO: 5. Добавить мобильное меню */
-/* TO DO: 6. Добавить ВИДЕО ПРЕЗЕНТАЦИЮ */
-
-
 /* Global */
 :root {
   --site-background: #00bcd42b;
@@ -877,7 +870,8 @@ img {
 
 .experience__card-title {
   display: block;
-
+  
+  margin: 0;
   padding-left: 10px;
   padding-bottom: 5px;
 }
